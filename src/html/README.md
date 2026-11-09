@@ -1,6 +1,6 @@
 # HTML renderer / HTML 渲染器 / HTML レンダラー
 
-[简体中文](../../README.md) · [English](../../README.en.md) · [日本語](../../README.ja.md)
+[简体中文](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.md) · [English](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.en.md) · [日本語](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.ja.md)
 
 | 文件 / File / ファイル | 职责 / Purpose / 役割 |
 | --- | --- |

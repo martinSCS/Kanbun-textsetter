@@ -1,6 +1,6 @@
 # 漢文訓読排版
 
-**简体中文** · [English](README.en.md) · [日本語](README.ja.md)
+**简体中文** · [English](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.en.md) · [日本語](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.ja.md)
 
 用 TypeScript 实现的漢文訓読排版工具，提供独立 HTML 渲染器和 React TSX 组件。支持振假名、送假名、再读文字、复合返点、标点、连接线及多字联合注音。浏览器实测字体尺寸后计算布局，正文保留为可选择、可复制的文字。
 
@@ -10,7 +10,7 @@
 npm install kanbun-typesetter
 ```
 
-[npm：kanbun-typesetter](https://www.npmjs.com/package/kanbun-typesetter) · 当前版本 `0.1.1`。
+[npm：kanbun-typesetter](https://www.npmjs.com/package/kanbun-typesetter) · 当前版本 `0.1.2`。
 
 ## 项目目录
 
@@ -26,7 +26,7 @@ examples/
 index.html       演示页面入口
 ```
 
-[HTML 目录说明](src/html/README.md) · [React 目录说明](src/react/README.md)
+[HTML 目录说明](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/html/README.md) · [React 目录说明](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/react/README.md)
 
 ## 本地运行
 
@@ -37,7 +37,7 @@ npm ci
 npm run dev -- --port 5188 --strictPort
 ```
 
-打开 [本地演示页面](http://127.0.0.1:5188/)。演示界面目前为中文；本文档提供三种语言。
+打开 本地演示页面 `http://127.0.0.1:5188/`。演示界面目前为中文；本文档提供三种语言。
 
 ```sh
 npm run build           # 类型检查、演示页构建、库与类型声明
@@ -68,7 +68,7 @@ viewer.setOptions({ kanjiFontSize: 40 });
 // 页面销毁时调用：viewer.destroy();
 ```
 
-也可以独立调用 `parseKanbun()`、`layoutKanbun()` 与 `renderKanbun()`，分别控制解析、布局及渲染。见 [HTML 目录](src/html/README.md)。
+也可以独立调用 `parseKanbun()`、`layoutKanbun()` 与 `renderKanbun()`，分别控制解析、布局及渲染。见 [HTML 目录](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/html/README.md)。
 
 ## React 组件
 
@@ -81,7 +81,7 @@ export function Reading({ text }: { text: string }) {
 }
 ```
 
-所有排版参数都可以直接作为 JSX 属性传入，例如 `baseSpacing={1}`、`kanjiFontSize={40}`。组件支持参数更新、自动列高、`onLayout` / `onError` 回调和卸载清理。React 是可选依赖，只有 React 入口需要它。见 [React 目录说明](src/react/README.md)。
+所有排版参数都可以直接作为 JSX 属性传入，例如 `baseSpacing={1}`、`kanjiFontSize={40}`。组件支持参数更新、自动列高、`onLayout` / `onError` 回调和卸载清理。React 是可选依赖，只有 React 入口需要它。见 [React 目录说明](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/react/README.md)。
 
 ## 输入语法
 
@@ -104,7 +104,7 @@ export function Reading({ text }: { text: string }) {
 
 ## 许可证
 
-本项目采用 [MIT 许可证](LICENSE)。第三方材料的权利及许可不因本项目的许可证而改变。
+本项目采用 [MIT 许可证](https://github.com/martinSCS/Kanbun-textsetter/blob/main/LICENSE)。第三方材料的权利及许可不因本项目的许可证而改变。
 
 ## 鸣谢
 

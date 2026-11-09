@@ -1,6 +1,6 @@
 # Kanbun typesetter
 
-[简体中文](README.md) · **English** · [日本語](README.ja.md)
+[简体中文](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.md) · **English** · [日本語](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.ja.md)
 
 A TypeScript typesetter for annotated kanbun, with a standalone HTML renderer and a React TSX component. It handles furigana, okurigana, rereading annotations, compound return marks, punctuation, connecting strokes, and grouped ruby. Layout uses browser-measured text dimensions. The output remains selectable and copyable text.
 
@@ -10,7 +10,7 @@ A TypeScript typesetter for annotated kanbun, with a standalone HTML renderer an
 npm install kanbun-typesetter
 ```
 
-[npm: kanbun-typesetter](https://www.npmjs.com/package/kanbun-typesetter) · Current version: `0.1.1`.
+[npm: kanbun-typesetter](https://www.npmjs.com/package/kanbun-typesetter) · Current version: `0.1.2`.
 
 ## Directory layout
 
@@ -26,7 +26,7 @@ examples/
 index.html       Demo entry page
 ```
 
-[HTML directory](src/html/README.md) · [React directory](src/react/README.md)
+[HTML directory](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/html/README.md) · [React directory](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/react/README.md)
 
 ## Run locally
 
@@ -37,7 +37,7 @@ npm ci
 npm run dev -- --port 5188 --strictPort
 ```
 
-Open the [local demo](http://127.0.0.1:5188/). The demo interface is currently in Chinese; the README is available in three languages.
+Open the local demo at `http://127.0.0.1:5188/`. The demo interface is currently in Chinese; the README is available in three languages.
 
 ```sh
 npm run build           # Type checking, demo build, library and declarations
@@ -67,7 +67,7 @@ viewer.setOptions({ kanjiFontSize: 40 });
 // When the page/component is disposed: viewer.destroy();
 ```
 
-For lower-level control, use `parseKanbun()`, `layoutKanbun()`, and `renderKanbun()` separately. See the [HTML directory](src/html/README.md).
+For lower-level control, use `parseKanbun()`, `layoutKanbun()`, and `renderKanbun()` separately. See the [HTML directory](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/html/README.md).
 
 ## React component
 
@@ -80,7 +80,7 @@ export function Reading({ text }: { text: string }) {
 }
 ```
 
-Pass layout options directly as JSX props, such as `baseSpacing={1}` or `kanjiFontSize={40}`. The component handles updates, automatic column height, `onLayout` / `onError` callbacks, and unmount cleanup. React is optional and only required for the React entry. See the [React directory](src/react/README.md).
+Pass layout options directly as JSX props, such as `baseSpacing={1}` or `kanjiFontSize={40}`. The component handles updates, automatic column height, `onLayout` / `onError` callbacks, and unmount cleanup. React is optional and only required for the React entry. See the [React directory](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/react/README.md).
 
 ## Markup
 
@@ -103,7 +103,7 @@ HTML and React are implemented; Canvas is not yet implemented. Font measurement 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Third-party materials retain their respective rights and licenses.
+This project is licensed under the [MIT License](https://github.com/martinSCS/Kanbun-textsetter/blob/main/LICENSE). Third-party materials retain their respective rights and licenses.
 
 ## Acknowledgments
 

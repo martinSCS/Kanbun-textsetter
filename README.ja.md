@@ -1,6 +1,6 @@
 # 漢文訓読組版
 
-[简体中文](README.md) · [English](README.en.md) · **日本語**
+[简体中文](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.md) · [English](https://github.com/martinSCS/Kanbun-textsetter/blob/main/README.en.md) · **日本語**
 
 TypeScript による漢文訓読組版ツールです。独立した HTML レンダラーと React TSX コンポーネントを提供します。振り仮名、送り仮名、再読文字の注記、複合返り点、句読点、つなぎ線、熟語単位のルビに対応します。ブラウザーで文字の寸法を測定して配置を計算し、選択・コピーできるテキストとして表示します。
 
@@ -10,7 +10,7 @@ TypeScript による漢文訓読組版ツールです。独立した HTML レン
 npm install kanbun-typesetter
 ```
 
-[npm: kanbun-typesetter](https://www.npmjs.com/package/kanbun-typesetter) · 現在のバージョン：`0.1.1`。
+[npm: kanbun-typesetter](https://www.npmjs.com/package/kanbun-typesetter) · 現在のバージョン：`0.1.2`。
 
 ## ディレクトリ構成
 
@@ -26,7 +26,7 @@ examples/
 index.html       デモの入口
 ```
 
-[HTML ディレクトリ](src/html/README.md) · [React ディレクトリ](src/react/README.md)
+[HTML ディレクトリ](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/html/README.md) · [React ディレクトリ](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/react/README.md)
 
 ## ローカルで実行
 
@@ -37,7 +37,7 @@ npm ci
 npm run dev -- --port 5188 --strictPort
 ```
 
-[ローカルデモ](http://127.0.0.1:5188/)を開きます。現在のデモ画面は中国語です。README は 3 言語で用意しています。
+ローカルデモ `http://127.0.0.1:5188/`を開きます。現在のデモ画面は中国語です。README は 3 言語で用意しています。
 
 ```sh
 npm run build           # 型検査、デモ、ライブラリーと型定義の生成
@@ -67,7 +67,7 @@ viewer.setOptions({ kanjiFontSize: 40 });
 // ページなどを破棄するとき：viewer.destroy();
 ```
 
-解析・配置・描画を個別に制御する場合は `parseKanbun()`、`layoutKanbun()`、`renderKanbun()` を使用します。[HTML ディレクトリ](src/html/README.md)を参照してください。
+解析・配置・描画を個別に制御する場合は `parseKanbun()`、`layoutKanbun()`、`renderKanbun()` を使用します。[HTML ディレクトリ](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/html/README.md)を参照してください。
 
 ## React コンポーネント
 
@@ -80,7 +80,7 @@ export function Reading({ text }: { text: string }) {
 }
 ```
 
-組版設定は `baseSpacing={1}`、`kanjiFontSize={40}` のように JSX の props として渡します。内容・設定の更新、自動列高、`onLayout` / `onError`、アンマウント時の後処理に対応します。React は任意依存で、React 用の入口を使用する場合だけ必要です。[React ディレクトリ](src/react/README.md)を参照してください。
+組版設定は `baseSpacing={1}`、`kanjiFontSize={40}` のように JSX の props として渡します。内容・設定の更新、自動列高、`onLayout` / `onError`、アンマウント時の後処理に対応します。React は任意依存で、React 用の入口を使用する場合だけ必要です。[React ディレクトリ](https://github.com/martinSCS/Kanbun-textsetter/blob/main/src/react/README.md)を参照してください。
 
 ## 入力記法
 
@@ -103,7 +103,7 @@ HTML と React に対応しており、Canvas 版は未実装です。フォン�
 
 ## ライセンス
 
-本プロジェクトは [MIT ライセンス](LICENSE)で公開しています。第三者の資料に関する権利とライセンスは変更されません。
+本プロジェクトは [MIT ライセンス](https://github.com/martinSCS/Kanbun-textsetter/blob/main/LICENSE)で公開しています。第三者の資料に関する権利とライセンスは変更されません。
 
 ## 謝辞
 

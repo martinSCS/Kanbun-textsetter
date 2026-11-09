@@ -1,6 +1,6 @@
 {
   "name": "kanbun-typesetter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
@@ -71,5 +71,13 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinSCS/Kanbun-textsetter.git"
+  },
+  "homepage": "https://github.com/martinSCS/Kanbun-textsetter#readme",
+  "bugs": {
+    "url": "https://github.com/martinSCS/Kanbun-textsetter/issues"
+  }
 }
